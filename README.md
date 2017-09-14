@@ -1,14 +1,16 @@
-#안드로이드 화면과 레이아웃(Layout)에 관한 공부 및 레이아웃을 이용해 계산기 만들기
+﻿# 안드로이드 화면과 레이아웃(Layout)에 관한 공부 및 레이아웃을 이용해 계산기 만들기
 
 ## 0. 안드로이드 화면 구조
 
 ##### 안드로이드의 화면 구조는 다음과 같다.
-##### > App(어플) > Activity(화면한개단위) > Fragment(화면 조각) > 레이아웃(뷰그룹 혹은 컨테이너) > 위젯(뷰)
+##### App(어플) > Activity(화면한개단위) > Fragment(화면 조각) > 레이아웃(뷰그룹 혹은 컨테이너) > 위젯(뷰)
 ##### 안드로이드 스튜디오를 실행하면 가장 먼저 뜨는 MainActivity Class는 AppComatActivity를 상속받아 구현되는데 이 AppComatActivity 또한 Activity라는 클래스를 상속받는다. 이 Activity 클래스는 앱의 화면을 띄우게 하는 각종 메서드가 들어 있으므로 한 화면을 띄우기 위해서는 Activiy 클래스를 상속받아야 한다.
 
 <br>
-##### 버튼에 onClickListener를 붙여주는 방법은 여러가지가 있다.
+### 버튼에 onClickListener를 붙여주는 방법은 여러가지가 있다.
+
 ##### 1.
+
 ```java
 Button button = (Button) findViewById(R.id.btn);
 
