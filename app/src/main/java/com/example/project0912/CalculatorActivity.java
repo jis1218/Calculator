@@ -45,49 +45,41 @@ public class CalculatorActivity extends AppCompatActivity {
     View.OnClickListener onClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
+            checkIfCalculate();
             switch(view.getId()) {
                 case R.id.btn1:
-                    checkIfCalculate();
                     inputDisplay.append("1");
                     topDisplay.append("1");
                     break;
                 case R.id.btn2:
-                    checkIfCalculate();
                     inputDisplay.append("2");
                     topDisplay.append("2");
                     break;
                 case R.id.btn3:
-                    checkIfCalculate();
                     inputDisplay.append("3");
                     topDisplay.append("3");
                     break;
                 case R.id.btn4:
-                    checkIfCalculate();
                     inputDisplay.append("4");
                     topDisplay.append("4");
                     break;
                 case R.id.btn5:
-                    checkIfCalculate();
                     inputDisplay.append("5");
                     topDisplay.append("5");
                     break;
                 case R.id.btn6:
-                    checkIfCalculate();
                     inputDisplay.append("6");
                     topDisplay.append("6");
                     break;
                 case R.id.btn7:
-                    checkIfCalculate();
                     inputDisplay.append("7");
                     topDisplay.append("7");
                     break;
                 case R.id.btn8:
-                    checkIfCalculate();
                     inputDisplay.append("8");
                     topDisplay.append("8");
                     break;
                 case R.id.btn9:
-                    checkIfCalculate();
                     inputDisplay.append("9");
                     topDisplay.append("9");
                     break;
