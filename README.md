@@ -7,8 +7,11 @@
 ##### 안드로이드 스튜디오를 실행하면 가장 먼저 뜨는 MainActivity Class는 AppComatActivity를 상속받아 구현되는데 이 AppComatActivity 또한 Activity라는 클래스를 상속받는다. 이 Activity 클래스는 앱의 화면을 띄우게 하는 각종 메서드가 들어 있으므로 한 화면을 띄우기 위해서는 Activiy 클래스를 상속받아야 한다.
 
 <br>
+
 ##### 버튼에 onClickListener를 붙여주는 방법은 여러가지가 있다.
+
 ##### 1.
+
 ```java
 Button button = (Button) findViewById(R.id.btn);
 
